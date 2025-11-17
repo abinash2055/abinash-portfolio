@@ -224,6 +224,27 @@ const projects = [
     image: Estore,
     source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
   },
+  {
+    name: "Cambridge",
+    description:
+      "An Job Portal platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "momysqlngodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Estore,
+    source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
