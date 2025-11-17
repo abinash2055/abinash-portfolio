@@ -23,6 +23,7 @@ import {
   music,
   Estore,
   threejs,
+  cambridge,
 } from "../assets";
 
 export const navLinks = [
@@ -225,16 +226,37 @@ const projects = [
     source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
   },
   {
-    name: "Cambridge",
+    name: "Cambridge Job Portal",
     description:
-      "An Job Portal platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+      "I delivered a responsive website for authors and job listings, improving user navigation and layout for better satisfaction. I boosted development efficiency using Laravel Blade and pagination on shared hosting. I also built a clean.",
     tags: [
       {
         name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "momysqlngodb",
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cambridge,
+    source_code_link: "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
+  },
+  {
+    name: "Cambridge Job Portal",
+    description:
+      "I delivered a responsive website for authors and job listings, improving user navigation and layout for better satisfaction. I boosted development efficiency using Laravel Blade and pagination on shared hosting. I also built a clean.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -243,7 +265,7 @@ const projects = [
       },
     ],
     image: Estore,
-    source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
+    source_code_link: "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
   },
 ];
 
