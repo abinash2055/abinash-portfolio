@@ -47,7 +47,10 @@ const ProjectCard = ({
         </div>
 
         {/* name and description of project */}
-        <div className="mt-5">
+        <div
+          className="mt-5 cursor-pointer"
+          onClick={() => window.open(source_code_link, "_blank")}
+        >
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[15px]">{description}</p>
         </div>
