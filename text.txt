@@ -1,0 +1,40 @@
+
+## Installing dependencies 
+
+
+## Email JS 
+    password: Abinashnath123@
+
+##  Navbar
+    ----> Download CV Added
+
+
+## Hero Section
+    ----> Image Added at right side
+
+
+## About { OverView }
+    ----> Programming Languages Corrected
+
+
+## Works { Work Experience }
+    ----> done
+    ----> Change text from each files not from index file only
+
+
+## Balls
+    ----> All Correct
+
+
+## Projects
+----> Images, Texts, GitHub Links are done,     
+----> Added a Button at middle which redirect to my github repo link
+
+
+## Testimonials
+    ----> All Image with Title and Details are Corrected
+
+
+## Contacts
+    ----> Remaining All
+    
