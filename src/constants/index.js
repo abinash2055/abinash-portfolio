@@ -23,6 +23,7 @@ import {
   music,
   Estore,
   threejs,
+  Cambridge,
 } from "../assets";
 
 export const navLinks = [
@@ -242,7 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Estore,
+    image: Cambridge,
     source_code_link: "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
   },
 ];
