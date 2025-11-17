@@ -225,48 +225,6 @@ const projects = [
     image: Estore,
     source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
   },
-  {
-    name: "Cambridge Job Portal",
-    description:
-      "I delivered a responsive website for authors and job listings, improving user navigation and layout for better satisfaction. I boosted development efficiency using Laravel Blade and pagination on shared hosting. I also built a clean.",
-    tags: [
-      {
-        name: "laravel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cambridge,
-    source_code_link: "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
-  },
-  {
-    name: "Cambridge Job Portal",
-    description:
-      "I delivered a responsive website for authors and job listings, improving user navigation and layout for better satisfaction. I boosted development efficiency using Laravel Blade and pagination on shared hosting. I also built a clean.",
-    tags: [
-      {
-        name: "laravel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Estore,
-    source_code_link: "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
-  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
