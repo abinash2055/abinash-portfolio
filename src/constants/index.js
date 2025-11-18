@@ -23,6 +23,8 @@ import {
   music,
   Estore,
   Cambridge,
+  BlogApp,
+  Shikshalaya,
   threejs,
 } from "../assets";
 
@@ -246,6 +248,48 @@ const projects = [
     image: Cambridge,
     source_code_link:
       "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
+  },
+  {
+    name: "Blog App Website",
+    description:
+      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: BlogApp,
+    source_code_link: "https://github.com/abinash2055/Blog-Website",
+  },
+  {
+    name: "Shikshalaya",
+    description:
+      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+    tags: [
+      {
+        name: "Android Studio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swift",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Shikshalaya,
+    source_code_link: "https://github.com/abinash2055/SIKSHALAYA",
   },
 ];
 

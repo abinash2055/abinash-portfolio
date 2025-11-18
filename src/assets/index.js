@@ -30,6 +30,8 @@ import pose from "./pose.png";
 import music from "./music.png";
 import Estore from "./Estore.png";
 import Cambridge from "./Cambridge.png";
+import BlogApp from "./BlogApp.png";
+import Shikshalaya from "./Shikshalaya.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   music,
   Estore,
   Cambridge,
+  BlogApp,
+  Shikshalaya,
 };
