@@ -22,6 +22,7 @@ import {
   pose,
   music,
   Estore,
+  Cambridge,
   threejs,
 } from "../assets";
 
@@ -242,8 +243,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Estore,
-    source_code_link: "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
+    image: Cambridge,
+    source_code_link:
+      "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
   },
 ];
 

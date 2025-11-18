@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import pose from "./pose.png";
 import music from "./music.png";
 import Estore from "./Estore.png";
+import Cambridge from "./Cambridge.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   pose,
   music,
   Estore,
+  Cambridge,
 };
