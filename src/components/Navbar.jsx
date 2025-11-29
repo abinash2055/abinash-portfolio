@@ -23,9 +23,10 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Abinash &nbsp;
-            <span className="sm:block hidden">| Computer Engineer</span>
+          <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold cursor-pointer flex">
+            Abinash&nbsp;
+            <span className="hidden lg:block">&nbsp;| Computer Engineer</span>
+            <span className="hidden sm:block lg:hidden">&nbsp;| CE</span>
           </p>
         </Link>
 
