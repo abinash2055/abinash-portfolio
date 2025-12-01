@@ -7,11 +7,12 @@ import Photo from "../assets/Photo.png";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
+      <div className="hero-gradient absolute inset-0 pointer-events-none" />
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-col-reverse sm:flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-col-reverse sm:flex-row items-center sm:items-start gap-5`}
       >
-        {/* Left side: vertical line + dot (unchanged) */}
-        <div className="flex flex-col justify-center items-center mt-5">
+        {/* Left side: vertical line + dot */}
+        <div className="flex flex-col justify-center items-center mt-5 flex-shrink-0">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
@@ -21,22 +22,26 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} whitespace-nowrap`}>
             Hi, I'm <span className="text-[#915eff]">Abinash</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I specialize in MERN Stack, Laravel and Python, AI/ML development,
-            <br className="block sm:hidden" />
-            creating efficient, scalable, and dynamic web solutions.
+          <p className={`${styles.heroSubText} mt-2 text-left max-w-3xl`}>
+            I specialize in MERN Stack, Laravel
+            <br className="sm:block hidden" />
+            and Python, AI/ML development, creating
+            <br className="sm:block hidden" />
+            efficient, scalable, and dynamic web solutions.
           </p>
         </div>
 
         {/* Right side: Rounded Image */}
-        <div className="flex-1 flex justify-end items-start">
-          <motion.img
-            src={Photo}
-            alt="hero"
-            className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover shadow-2xl border-4 border-[#915eff] mt-5 sm:mt-0 sm:mr-[-60px] lg:mr-[-100px] cursor-pointer"
-            whileHover={{ scale: 1.15, y: -10 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          />
+        <div className="w-full sm:w-auto flex-1 flex justify-center items-center mb-8 sm:mb-0 sm:justify-end">
+          <div className="flex-shrink-0 w-64 h-64 sm:w-72 sm:h-72">
+            <motion.img
+              src={Photo}
+              alt="hero Pic"
+              className="w-full h-full rounded-full object-cover border-4 border-[#915eff] shadow-2xl shadow-violet-primary/20"
+              whileHover={{ scale: 1.08 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            />
+          </div>
         </div>
       </div>
 
@@ -44,8 +49,8 @@ const Hero = () => {
       <ComputersCanvas />
 
       {/* Scroll indicator */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
+      <div className="absolute bottom-10 w-full hidden lg:flex justify-center items-center">
+        <a href="#about" aria-label="Scroll to about section">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{ y: [0, 24, 0] }}
@@ -63,4 +68,4 @@ const Hero = () => {
   );
 };
 
-export default Hero
+export default Hero;
