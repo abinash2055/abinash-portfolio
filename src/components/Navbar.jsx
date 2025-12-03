@@ -22,7 +22,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-12 h-12 object-contain rounded-full"
+          />
           <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold cursor-pointer flex">
             Abinash&nbsp;
             <span className="hidden lg:block">&nbsp;| Computer Engineer</span>
@@ -35,13 +39,15 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li
               key={link.id}
-              className={`${active === link.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={`${
+                active === link.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          {/* Download CV */}
           <li>
             <a
               href="/Abinash_Resume.pdf"
@@ -65,15 +71,17 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
           <div
-            className={`${!toggle ? "hidden" : "flex"
-              } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[160px] z-10 rounded-xl`}
+            className={`${
+              !toggle ? "hidden" : "flex"
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[160px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${active === link.title ? "text-white" : "text-secondary"
-                    } font-poppins font-medium cursor-pointer text-[16px]`}
+                  className={`${
+                    active === link.title ? "text-white" : "text-secondary"
+                  } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);

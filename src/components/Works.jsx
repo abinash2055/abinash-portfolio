@@ -17,16 +17,24 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="!opacity-100"
+    >
       <Tilt
-        options={{ max: 45, scale: 1, speed: 450 }}
-        // className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-        className="bg-tertiary p-5 rounded-2xl w-full max-w-[360px]"
-
+        // options={{ max: 45, scale: 1, speed: 450 }}
+        options={{
+          max:
+            typeof window !== "undefined" && window.innerWidth < 640 ? 0 : 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div
           onClick={() => window.open(source_code_link, "_blank")}
-          className="relative w-full h-[230px] cursor-pointer"
+          // className="relative w-full h-[230px] cursor-pointer"
+          className="relative w-full h-[200px] xs:h-[230px] cursor-pointer"
         >
           <img
             src={image}
@@ -72,15 +80,15 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="!opacity-100">
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
-      <div className="uw-full flex">
+      <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] !opacity-100"
         >
           Following projects showcase my skill and experience through real-world
           examples of my work. Each project is briefly described with links to
@@ -91,7 +99,8 @@ const Works = () => {
       </div>
 
       {/* For Wrapper */}
-      <div className="mt-20 flex flex-wrap gap-7">
+      {/* <div className="mt-20 flex flex-wrap gap-7"> */}
+      <div className="mt-20 flex flex-wrap justify-center gap-7 !opacity-100">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
