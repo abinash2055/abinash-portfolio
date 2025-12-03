@@ -22,7 +22,6 @@ const ProjectCard = ({
       className="!opacity-100"
     >
       <Tilt
-        // options={{ max: 45, scale: 1, speed: 450 }}
         options={{
           max:
             typeof window !== "undefined" && window.innerWidth < 640 ? 0 : 45,
@@ -33,7 +32,6 @@ const ProjectCard = ({
       >
         <div
           onClick={() => window.open(source_code_link, "_blank")}
-          // className="relative w-full h-[230px] cursor-pointer"
           className="relative w-full h-[200px] xs:h-[230px] cursor-pointer"
         >
           <img
@@ -99,7 +97,6 @@ const Works = () => {
       </div>
 
       {/* For Wrapper */}
-      {/* <div className="mt-20 flex flex-wrap gap-7"> */}
       <div className="mt-20 flex flex-wrap justify-center gap-7 !opacity-100">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
@@ -107,12 +104,12 @@ const Works = () => {
       </div>
 
       {/* GitHub Button */}
-      <div className="mt-10 flex justify-center">
+      <div className="mt-10 flex justify-center relative z-50">
         <a
           href="https://github.com/abinash2055?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-2 bg-gradient-to-r from-[#915eff] to-[#7a48d6] text-white font-semibold rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
+          className="inline-block w-max px-4 sm:px-5 py-2 bg-gradient-to-r from-[#915eff] to-[#7a48d6] text-white text-sm sm:text-base font-semibold rounded-lg shadow-md hover:scale-105 transition-transform duration-300 relative z-50"
         >
           View More on GitHub
         </a>
