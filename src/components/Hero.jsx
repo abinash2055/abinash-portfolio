@@ -26,8 +26,9 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-left max-w-3xl`}>
               I specialize in MERN Stack, <br className="sm:block hidden" />
               Laravel and Python, AI/ML <br className="sm:block hidden" />
-              development, creating efficient, scalable,{" "}
-              <br className="sm:block hidden" /> and dynamic web solutions.
+              development, creating efficient,{" "}
+              <br className="sm:block hidden" />
+              scalable, and dynamic web solutions.
             </p>
           </div>
         </div>
