@@ -27,7 +27,8 @@ const Hero = () => {
               I specialize in MERN Stack, <br className="sm:block hidden" />
               Laravel and Python, AI/ML development,{" "}
               <br className="sm:block hidden" />
-              creating efficient, scalable, and dynamic web solutions.
+              development, creating efficient, scalable, and dynamic web
+              solutions.
             </p>
           </div>
         </div>
