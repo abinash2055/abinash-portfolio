@@ -139,56 +139,56 @@ const experiences = [
 ];
 
 // All Education
-const educations = [
-  // Bachelor
-  {
-    title: "BE in Computer Engineering (Tribhuvan University)",
-    school_name: "Kathmandu Engineering College",
-    icon: kec,
-    iconBg: "#383E56",
-    date: "July 2019 - August 2023",
-    points: [
-      "Gained strong fundamentals in programming, computer systems, algorithms, networking, and electronics. Worked on multiple projects involving web development, IoT, and machine learning.",
-      "Focused on software development, data structures, hardware-software integration, and system design. Developed hands-on experience through academic projects, labs, and teamwork.",
-    ],
-  },
-  // NEB
-  {
-    title: "National Examination Board (NEB)",
-    school_name: "Prasadi Academy Secondary School",
-    icon: prasadi,
-    iconBg: "#383E56",
-    date: "July 2016 - June 2018",
-    points: [
-      "Up to Grade 10, Science covers the fundamentals of Physics (Motion, Electricity, Light), Chemistry (Matter, Reactions, pH), and Biology (Cell, Life Processes, Heredity).",
-      "Optional Mathematics introduces advanced algebra like Matrices and Sequences, extended Trigonometry (Identities, Heights), Coordinate Geometry, transformations, and basic Differentiation (Calculus).",
-    ],
-  },
-  // SLC
-  {
-    title: "School Leaving Certificate (SLC)",
-    school_name: "N. K. Singh Memorial English Preparatory Secondary School",
-    icon: eps,
-    iconBg: "#383E56",
-    date: "April 2001 - March 2016",
-    points: [
-      "Up to Grade 10, Science covers the fundamentals of Physics (Motion, Electricity, Light), Chemistry (Matter, Reactions, pH), and Biology (Cell, Life Processes, Heredity).",
-      "Optional Mathematics introduces advanced algebra like Matrices and Sequences, extended Trigonometry (Identities, Heights), Coordinate Geometry, transformations, and basic Differentiation (Calculus).",
-    ],
-  },
-  // Nursery
-  {
-    title: "Nursery",
-    school_name: "Manank Children's Paradise Secondary School",
-    icon: manank,
-    iconBg: "#383E56",
-    date: "April 2000 - March 2001",
-    points: [
-      "Nursery was a time of joyful discovery through play! I developed curiosity and fine motor skills with fun art and building.",
-      "I learned to share, talk about my feelings, and follow routines, making me confident and enthusiastic about learning my letters and numbers.",
-    ],
-  },
-];
+// const educations = [
+//   // Bachelor
+//   {
+//     title: "BE in Computer Engineering (Tribhuvan University)",
+//     school_name: "Kathmandu Engineering College",
+//     icon: kec,
+//     iconBg: "#383E56",
+//     date: "July 2019 - August 2023",
+//     points: [
+//       "Gained strong fundamentals in programming, computer systems, algorithms, networking, and electronics. Worked on multiple projects involving web development, IoT, and machine learning.",
+//       "Focused on software development, data structures, hardware-software integration, and system design. Developed hands-on experience through academic projects, labs, and teamwork.",
+//     ],
+//   },
+//   // NEB
+//   {
+//     title: "National Examination Board (NEB)",
+//     school_name: "Prasadi Academy Secondary School",
+//     icon: prasadi,
+//     iconBg: "#383E56",
+//     date: "July 2016 - June 2018",
+//     points: [
+//       "Up to Grade 10, Science covers the fundamentals of Physics (Motion, Electricity, Light), Chemistry (Matter, Reactions, pH), and Biology (Cell, Life Processes, Heredity).",
+//       "Optional Mathematics introduces advanced algebra like Matrices and Sequences, extended Trigonometry (Identities, Heights), Coordinate Geometry, transformations, and basic Differentiation (Calculus).",
+//     ],
+//   },
+//   // SLC
+//   {
+//     title: "School Leaving Certificate (SLC)",
+//     school_name: "N. K. Singh Memorial English Preparatory Secondary School",
+//     icon: eps,
+//     iconBg: "#383E56",
+//     date: "April 2001 - March 2016",
+//     points: [
+//       "Up to Grade 10, Science covers the fundamentals of Physics (Motion, Electricity, Light), Chemistry (Matter, Reactions, pH), and Biology (Cell, Life Processes, Heredity).",
+//       "Optional Mathematics introduces advanced algebra like Matrices and Sequences, extended Trigonometry (Identities, Heights), Coordinate Geometry, transformations, and basic Differentiation (Calculus).",
+//     ],
+//   },
+//   // Nursery
+//   {
+//     title: "Nursery",
+//     school_name: "Manank Children's Paradise Secondary School",
+//     icon: manank,
+//     iconBg: "#383E56",
+//     date: "April 2000 - March 2001",
+//     points: [
+//       "Nursery was a time of joyful discovery through play! I developed curiosity and fine motor skills with fun art and building.",
+//       "I learned to share, talk about my feelings, and follow routines, making me confident and enthusiastic about learning my letters and numbers.",
+//     ],
+//   },
+// ];
 
 // All Testimonials --> what other says
 const testimonials = [
@@ -359,5 +359,4 @@ export {
   experiences,
   testimonials,
   projects,
-  educations,
 };
