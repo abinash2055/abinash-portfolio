@@ -20,7 +20,10 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-        <About />
+        <div className="-mt-[400px] sm:mt-0">
+
+        <About  />
+        </div>
         <Experience />
         <Tech />
         <Works />

@@ -24,10 +24,11 @@ const Hero = () => {
               Hi, I'm <span className="text-[#915eff]">Abinash</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-left max-w-3xl`}>
-              I specialize in MERN Stack, <br className="sm:block hidden" />
-              Laravel and Python, AI/ML development,{" "}
+              I specialize in MERN Stack, Laravel
               <br className="sm:block hidden" />
-              creating efficient, scalable, and dynamic web solutions.
+              and Python, AI/ML development, creating
+              <br className="sm:block hidden" />
+              efficient, scalable, and dynamic web solutions.
             </p>
           </div>
         </div>
@@ -69,6 +70,7 @@ const Hero = () => {
       </div>
     </section>
   );
+  ("");
 };
 
 export default Hero;

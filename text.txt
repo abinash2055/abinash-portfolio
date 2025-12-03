@@ -1,9 +1,18 @@
 
+Vertical Line   --> Hero Page
+CamputerCanvas  --> components/canvas/Computer.jsx
+CamputerCanvas  --> components/Hero.jsx
+BallCanvas      --> components/canvas/Ball.jsx  
+BallCanvas      --> components/Tech.jsx  
+
+
+````````````````````````````````````````````````````````````````````
 ## Installing dependencies 
 
 
 ## Email JS 
     password: Abinashnath123@
+
 
 ##  Navbar
     ----> Download CV Added

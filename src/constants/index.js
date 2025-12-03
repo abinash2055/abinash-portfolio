@@ -15,12 +15,11 @@ import {
   git,
   figma,
   docker,
+  meta,
   robust,
+  tesla,
+  shopify,
   pose,
-  eps,
-  kec,
-  manank,
-  prasadi,
   music,
   Estore,
   Cambridge,
@@ -29,7 +28,6 @@ import {
   threejs,
 } from "../assets";
 
-// Navbar
 export const navLinks = [
   {
     id: "about",
@@ -45,7 +43,6 @@ export const navLinks = [
   },
 ];
 
-// About --> overview
 const services = [
   {
     title: "Website Developer",
@@ -65,7 +62,6 @@ const services = [
   },
 ];
 
-// All Balls
 const technologies = [
   {
     name: "HTML 5",
@@ -121,7 +117,6 @@ const technologies = [
   },
 ];
 
-// All Experiences
 const experiences = [
   {
     title: "Laravel Developer",
@@ -138,90 +133,35 @@ const experiences = [
   },
 ];
 
-// All Education
-// const educations = [
-//   // Bachelor
+// const testimonials = [
 //   {
-//     title: "BE in Computer Engineering (Tribhuvan University)",
-//     school_name: "Kathmandu Engineering College",
-//     icon: kec,
-//     iconBg: "#383E56",
-//     date: "July 2019 - August 2023",
-//     points: [
-//       "Gained strong fundamentals in programming, computer systems, algorithms, networking, and electronics. Worked on multiple projects involving web development, IoT, and machine learning.",
-//       "Focused on software development, data structures, hardware-software integration, and system design. Developed hands-on experience through academic projects, labs, and teamwork.",
-//     ],
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sushil Subedi",
+//     designation: "Founder",
+//     company: "Robust InfoTech",
+//     image:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS38q24-mOA8IBBrOStB750OwqQK-ifcBYU5w&s",
 //   },
-//   // NEB
 //   {
-//     title: "National Examination Board (NEB)",
-//     school_name: "Prasadi Academy Secondary School",
-//     icon: prasadi,
-//     iconBg: "#383E56",
-//     date: "July 2016 - June 2018",
-//     points: [
-//       "Up to Grade 10, Science covers the fundamentals of Physics (Motion, Electricity, Light), Chemistry (Matter, Reactions, pH), and Biology (Cell, Life Processes, Heredity).",
-//       "Optional Mathematics introduces advanced algebra like Matrices and Sequences, extended Trigonometry (Identities, Heights), Coordinate Geometry, transformations, and basic Differentiation (Calculus).",
-//     ],
+//     testimonial:
+//       "I've never met a developer who truly cares about their clients' success like Rick does with Machine Learning projects.",
+//     name: "Mahesh Singh Khathayat",
+//     designation: "HOD",
+//     company: "Department Head",
+//     image:
+//       "https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/486481325_10152182311344978_7880530672113910804_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5wttvY7DH-0Q7kNvwEJBl7e&_nc_oc=Adnsx80hfwGu_NAf2xuKSLuZ7mt_vHYC9SKVJ9aMfPYU621rNWk-NMqFPo7lMMCycT_dpa4SumYP9CxzNfftqndO&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&_nc_gid=Y9yHXsfzmvLE4H7Usn9KNg&oh=00_Afj7nHEi17tK-iLQvkxgzFywPNR_bfNI2ZyHvPBRa9P15w&oe=69207375",
 //   },
-//   // SLC
 //   {
-//     title: "School Leaving Certificate (SLC)",
-//     school_name: "N. K. Singh Memorial English Preparatory Secondary School",
-//     icon: eps,
-//     iconBg: "#383E56",
-//     date: "April 2001 - March 2016",
-//     points: [
-//       "Up to Grade 10, Science covers the fundamentals of Physics (Motion, Electricity, Light), Chemistry (Matter, Reactions, pH), and Biology (Cell, Life Processes, Heredity).",
-//       "Optional Mathematics introduces advanced algebra like Matrices and Sequences, extended Trigonometry (Identities, Heights), Coordinate Geometry, transformations, and basic Differentiation (Calculus).",
-//     ],
-//   },
-//   // Nursery
-//   {
-//     title: "Nursery",
-//     school_name: "Manank Children's Paradise Secondary School",
-//     icon: manank,
-//     iconBg: "#383E56",
-//     date: "April 2000 - March 2001",
-//     points: [
-//       "Nursery was a time of joyful discovery through play! I developed curiosity and fine motor skills with fun art and building.",
-//       "I learned to share, talk about my feelings, and follow routines, making me confident and enthusiastic about learning my letters and numbers.",
-//     ],
+//     testimonial:
+//       "After Abinash optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
 //   },
 // ];
 
-// All Testimonials --> what other says
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Abinash proved me wrong.",
-    name: "Sushil Subedi",
-    designation: "Founder",
-    company: "Robust InfoTech",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS38q24-mOA8IBBrOStB750OwqQK-ifcBYU5w&s",
-  },
-  {
-    testimonial:
-      "I've never met a developer who truly cares about their clients' success like Abinash does with Machine Learning projects.",
-    name: "Sudeep Shakya",
-    designation: "HOD",
-    company: "Computer Department ",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNJEXQfYcNw75Ywr2RkcRjNhZvhHn9hmQEew&s",
-  },
-  {
-    testimonial:
-      "After Abinash optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Nischal Acharya",
-    designation: "Supervisor",
-    company: "Pulchowk Campus",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkd0E2vVCRAP1UaRLiythNCEoV4rA6ZjRg-w&s",
-  },
-];
-
-// All Projects
 const projects = [
   {
     name: "Personal Trainer Human Pose Visualization",
@@ -248,7 +188,7 @@ const projects = [
   {
     name: "Music Text Player",
     description:
-      "A Django-based web app built with Python that allows users to play local MP3 music files through a clean, simple text-based interface, offering an easy lightweight way to manage and enjoy audio directly from the browser.",
+      "A Django-based web application built with Python that allows users to play local MP3 music files with a simple text-based interface.",
     tags: [
       {
         name: "Python",
@@ -269,7 +209,7 @@ const projects = [
   {
     name: "E-store",
     description:
-      "An e-commerce platform that allows users to browse products, add items to shopping cart, place orders, manage their accounts, all while providing a secure, streamlined checkout process for a smooth shopping experience.",
+      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
     tags: [
       {
         name: "nextJS",
@@ -293,7 +233,7 @@ const projects = [
       "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
     tags: [
       {
-        name: "laravel-blade",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
@@ -301,7 +241,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -315,11 +255,11 @@ const projects = [
       "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
     tags: [
       {
-        name: "React",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "Mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -353,10 +293,5 @@ const projects = [
   },
 ];
 
-export {
-  services,
-  technologies,
-  experiences,
-  testimonials,
-  projects,
-};
+// export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
