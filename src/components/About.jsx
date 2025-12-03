@@ -57,7 +57,7 @@ const About = () => {
         className="inline-block w-full md:w-1/2 h-68 md:h-80 rounded-lg object-cover align-top"
       /> */}
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap justify-center items-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
