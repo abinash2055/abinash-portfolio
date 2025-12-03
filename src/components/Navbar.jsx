@@ -22,7 +22,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-12 h-12 object-contain rounded-full"
+          />
           <p className="text-white text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold cursor-pointer flex">
             Abinash&nbsp;
             <span className="hidden lg:block">&nbsp;| Computer Engineer</span>
