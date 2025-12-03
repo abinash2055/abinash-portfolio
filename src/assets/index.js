@@ -21,6 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import eps from "./education/eps.jpg";
+import kec from "./education/kec.png";
+import manank from "./education/manank.jpg";
+import prasadi from "./education/prasadi.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import robust from "./company/robust.png";
@@ -65,4 +70,8 @@ export {
   Cambridge,
   BlogApp,
   Shikshalaya,
+  eps,
+  prasadi,
+  manank,
+  kec,
 };
