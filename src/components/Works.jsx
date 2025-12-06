@@ -104,7 +104,7 @@ const Works = () => {
       </div>
 
       {/* GitHub Button */}
-      <div className="mt-10 flex justify-center relative z-50">
+      <div className="mt-40 sm:mt-10 flex justify-center relative z-50">
         <a
           href="https://github.com/abinash2055?tab=repositories"
           target="_blank"
