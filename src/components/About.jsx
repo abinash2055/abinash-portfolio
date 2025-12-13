@@ -43,8 +43,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a MERN stack developer with strong expertise in JavaScript and React. I thrive on learning quickly and collaborating closely with clients to deliver efficient, scalable, and user-friendly solutions along with Python. My goal is to transform ideas into real-world applications that solve problems and provide value. Let us build something amazing together!
-
+        I am a MERN stack developer with strong expertise in JavaScript and
+        React. I thrive on learning quickly and collaborating closely with
+        clients to deliver efficient, scalable, and user-friendly solutions
+        along with Python. My goal is to transform ideas into real-world
+        applications that solve problems and provide value. Let us build
+        something amazing together!
       </motion.p>
 
       <div className="mt-20 flex justify-center items-center flex-wrap gap-10">

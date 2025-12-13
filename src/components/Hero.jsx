@@ -47,14 +47,14 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="sm:flex items-center justify-center w-full h-[1200px] mx-auto">
+      <div className="sm:flex items-center justify-center w-full h-[1005px] mx-auto">
         <ComputersCanvas />
       </div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-10 w-full flex justify-center items-center mb-[350px] sm:mb-0">
         <a href="#about" aria-label="Scroll to about section">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 -mt-[125px]">
             <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{
