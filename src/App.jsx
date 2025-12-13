@@ -4,8 +4,7 @@ import {
   About,
   Contact,
   Experience,
-  // Education,
-  // Feedbacks,
+  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -21,10 +20,12 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-        <About />
+        <div className="-mt-[400px] sm:mt-0">
+
+        <About  />
+        </div>
         <Experience />
         <Tech />
-        {/* <Education /> */}
         <Works />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
