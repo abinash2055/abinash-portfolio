@@ -5,6 +5,7 @@ import {
   Contact,
   Experience,
   Feedbacks,
+  Educations,
   Hero,
   Navbar,
   Tech,
@@ -21,11 +22,11 @@ function App() {
           <Hero />
         </div>
         <div className="-mt-[400px] sm:mt-0">
-
-        <About  />
+          <About />
         </div>
         <Experience />
         <Tech />
+        <Educations />
         <Works />
         {/* <Feedbacks /> */}
         <div className="relative z-0">

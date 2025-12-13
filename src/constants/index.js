@@ -23,6 +23,10 @@ import {
   BlogApp,
   Shikshalaya,
   threejs,
+  eps,
+  kec,
+  manank,
+  prasadi,
 } from "../assets";
 
 export const navLinks = [
@@ -130,10 +134,65 @@ const experiences = [
   },
 ];
 
+const educations = [
+  {
+    title: "Bachelor Degree in Computer Engineering",
+    education_name: "Kathmandu Engineering College",
+    icon: kec,
+    iconBg: "#383E56",
+    date: "Sep 2019 - Aug 2023",
+    points: [
+      "Developing and maintaining web applications using Laravel and related PHP technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility with Blade templates and front-end frameworks.",
+      "Participating in code reviews, optimizing queries, and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "National Examination Board ",
+    education_name: "Prasadi Academy",
+    icon: prasadi,
+    iconBg: "#383E56",
+    date: "May 2016 - Aug 2018",
+    points: [
+      "Developed strong research, critical thinking, and problem-solving abilities through practical experiments and coursework.",
+      "Studied Science Stream (Biology) with a focus on advanced biological concepts and laboratory practices.",
+      "Completed Additional Mathematics, enhancing analytical, logical, and quantitative problem-solving skills.",
+      "Gained proficiency in core subjects such as Physics, Chemistry, and Computer Applications, preparing for higher education in engineering and technology.",
+    ],
+  },
+  {
+    title: "School Leaving Certificate",
+    education_name: "N.K. Singh Memorial E.P.S School",
+    icon: eps,
+    iconBg: "#383E56",
+    date: "Nov 2002 - April 2016",
+    points: [
+      "Specialized in Optional Mathematics and Science, demonstrating advanced analytical, logical, and quantitative problem-solving skills.",
+      "Developed proficiency in Computer Applications and Accounting, acquiring strong technical, computational, and data management capabilities.",
+      "Cultivated problem-solving, critical thinking, and collaborative skills through project-based learning and group initiatives.",
+      "Developed problem-solving, critical thinking, and collaborative skills through school projects and group activities.",
+    ],
+  },
+  {
+    title: "Montessori School",
+    education_name: "Manank Children's Paradise School",
+    icon: manank,
+    iconBg: "#383E56",
+    date: "Sep 2000 - Aug 2003",
+    points: [
+      "Attended Montessori School for early childhood education, learning foundational reading, writing, and arithmetic skills.",
+      "Developed social and emotional skills through group activities and collaborative learning.",
+      "Engaged in hands-on, practical activities to enhance curiosity and problem-solving.",
+      "Built early creativity and critical thinking through arts, music, and play-based learning.",
+    ],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Abinash proved me wrong during his internship period.",
     name: "Sushil Subedi",
     designation: "Founder",
     company: "Robust InfoTech",
@@ -142,20 +201,21 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a developer who truly cares about their clients' success like Rick does with Machine Learning projects.",
+      "I've never met a developer who truly cares about his minor and major project' success like Abinash does with Machine Learning projects.",
     name: "Mahesh Singh Khathayat",
-    designation: "HOD",
-    company: "Department Head",
+    designation: "Project Supervisor",
+    company: "Projects",
     image:
-      "https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/486481325_10152182311344978_7880530672113910804_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5wttvY7DH-0Q7kNvwEJBl7e&_nc_oc=Adnsx80hfwGu_NAf2xuKSLuZ7mt_vHYC9SKVJ9aMfPYU621rNWk-NMqFPo7lMMCycT_dpa4SumYP9CxzNfftqndO&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&_nc_gid=Y9yHXsfzmvLE4H7Usn9KNg&oh=00_Afj7nHEi17tK-iLQvkxgzFywPNR_bfNI2ZyHvPBRa9P15w&oe=69207375",
+      "https://i1.rgstatic.net/ii/profile.image/11431281182808934-1692594170366_Q512/Mahesh-Kathayat-2.jpg",
   },
   {
     testimonial:
-      "After Abinash optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After I met Abinash as a Bachelor Student in Computer Engineer course who sincercely does his work accurately within time and also good in his study period of time.!",
+    name: "Sudeep Shakya",
+    designation: "HOD",
+    company: "Computer Department",
+    image:
+      "https://wms.edigitalnepal.com/wms/files/ws-file-manager-images/1684059869251_6da22c76-40cb-4591-8b60-8665a6a4e580.jpg",
   },
 ];
 
@@ -290,4 +350,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  educations,
+  testimonials,
+  projects,
+};

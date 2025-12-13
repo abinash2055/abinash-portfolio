@@ -22,7 +22,6 @@ const ProjectCard = ({
       className="!opacity-100"
     >
       <Tilt
-        // options={{ max: 45, scale: 1, speed: 450 }}
         options={{
           max:
             typeof window !== "undefined" && window.innerWidth < 640 ? 0 : 45,
@@ -33,7 +32,6 @@ const ProjectCard = ({
       >
         <div
           onClick={() => window.open(source_code_link, "_blank")}
-          // className="relative w-full h-[230px] cursor-pointer"
           className="relative w-full h-[200px] xs:h-[230px] cursor-pointer"
         >
           <img
