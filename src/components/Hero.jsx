@@ -6,7 +6,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-[calc(100svh+200px)] sm:min-h-screen mx-auto">
+    <section className="relative w-full min-h-[calc(100svh+300px)] sm:min-h-screen mx-auto">
       <div className="hero-gradient absolute inset-0 pointer-events-none" />
       <div
         className={`${styles.paddingX} absolute inset-0 top-[100px] sm:top-[120px]  max-w-7xl mx-auto flex flex-col-reverse sm:flex-row items-center justify-end sm:items-start  sm:justify-between `}
@@ -34,12 +34,12 @@ const Hero = () => {
         </div>
 
         {/* Right side: Rounded Image */}
-        <div className="   mb-8 sm:mb-0 sm:justify-end ">
-          <div className=" w-64 h-64 sm:w-72 sm:h-72">
+        <div className="mb-6 sm:mb-0 sm:justify-end">
+          <div className="w-40 h-40 sm:w-72 sm:h-72">
             <motion.img
               src={Photo}
               alt="hero Pic"
-              className="w-full h-full rounded-full object-cover border-4 border-[#915eff] shadow-2xl shadow-violet-primary/20 "
+              className="w-full h-full rounded-full object-cover border-4 border-[#915eff] shadow-2xl shadow-violet-primary/20"
               whileHover={{ scale: 1.08 }}
               transition={{ type: "spring", stiffness: 300 }}
             />
@@ -47,12 +47,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="sm:flex items-center justify-center w-full h-[1200px] mx-auto">
+      <div className="flex items-center justify-center w-full h-[1000px] sm:h-[950px] mx-auto">
         <ComputersCanvas />
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 w-full flex justify-center items-center mb-[350px] sm:mb-0">
+      <div className="absolute bottom-10 w-full flex justify-center items-center mb-[300px] sm:mb-0">
         <a href="#about" aria-label="Scroll to about section">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
