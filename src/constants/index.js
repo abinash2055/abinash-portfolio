@@ -1,8 +1,10 @@
 import {
+  // services images
   mobile,
   backend,
   creator,
   web,
+  // technologies images
   javascript,
   typescript,
   html,
@@ -15,7 +17,10 @@ import {
   git,
   figma,
   docker,
+  // experiences images
   robust,
+  asi,
+  // Project images
   pose,
   music,
   Estore,
@@ -23,6 +28,7 @@ import {
   BlogApp,
   Shikshalaya,
   threejs,
+  // educations images
   eps,
   kec,
   manank,
@@ -54,11 +60,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Full Stack MERN Developer",
+    title: "Full Stack & MERN Developer",
     icon: backend,
   },
   {
-    title: "Python Developer",
+    title: "AI/ML Developer",
     icon: creator,
   },
 ];
@@ -119,6 +125,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Junior Software Developer",
+    company_name: "ASI Tech",
+    icon: asi,
+    iconBg: "#383E56",
+    date: "April 2026 - Present",
+    points: [
+      "Junior Software Engineer with hands-on experience in software development, debugging, 	testing, and application maintenance.",
+      "Proficient in working with modern development tools, version control systems, and 	scalable software architectures.",
+      "Actively learning Artificial Intelligence and Machine Learning, focusing on Large 	Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI-driven 	automation.",
+      "Experienced in building and deploying web applications, integrating APIs, and 	exploring intelligent systems to solve real-world business problems."
+    ],
+  },
   {
     title: "Laravel Developer",
     company_name: "Robust Information Technology",
