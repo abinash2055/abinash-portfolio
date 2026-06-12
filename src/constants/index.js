@@ -331,11 +331,11 @@ const projects = [
       "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
     tags: [
       {
-        name: "laravel",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mysql",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
