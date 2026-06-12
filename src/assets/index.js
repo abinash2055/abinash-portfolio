@@ -27,6 +27,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import robust from "./company/robust.png";
+import asi from "./company/asi.png";
 import tesla from "./company/tesla.png";
 
 // Projects
@@ -68,6 +69,7 @@ export {
   meta,
   shopify,
   robust,
+  asi,
   tesla,
   pose,
   music,
