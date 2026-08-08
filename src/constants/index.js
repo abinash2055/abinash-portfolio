@@ -261,48 +261,48 @@ const projects = [
     source_code_link:
       "https://github.com/abinash2055/Personal_Trainer_using_Human_Pose_Visualization",
   },
-  {
-    name: "Music Text Player",
-    description:
-      "A Django-based web application built with Python that allows users to play local MP3 music files with a simple text-based interface.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Virtual Environment",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: music,
-    source_code_link: "https://github.com/abinash2055/MusicTextPlayer",
-  },
-  {
-    name: "E-store",
-    description:
-      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
-    tags: [
-      {
-        name: "nextJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Estore,
-    source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
-  },
+  // {
+  //   name: "Music Text Player",
+  //   description:
+  //     "A Django-based web application built with Python that allows users to play local MP3 music files with a simple text-based interface.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Django",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Virtual Environment",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: music,
+  //   source_code_link: "https://github.com/abinash2055/MusicTextPlayer",
+  // },
+  // {
+  //   name: "E-store",
+  //   description:
+  //     "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+  //   tags: [
+  //     {
+  //       name: "nextJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: Estore,
+  //   source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
+  // },
   {
     name: "Cambridge Job Portal",
     description:
@@ -325,27 +325,27 @@ const projects = [
     source_code_link:
       "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
   },
-  {
-    name: "Blog App Website",
-    description:
-      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: BlogApp,
-    source_code_link: "https://github.com/abinash2055/Blog-Website",
-  },
+  // {
+  //   name: "Blog App Website",
+  //   description:
+  //     "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+  //   tags: [
+  //     {
+  //       name: "ReactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwindcss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: BlogApp,
+  //   source_code_link: "https://github.com/abinash2055/Blog-Website",
+  // },
   {
     name: "Shikshalaya",
     description:
