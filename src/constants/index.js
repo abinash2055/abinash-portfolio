@@ -325,27 +325,27 @@ const projects = [
     source_code_link:
       "https://github.com/abinash2055/CamBridge_Job_Portal-Robust",
   },
-  // {
-  //   name: "Blog App Website",
-  //   description:
-  //     "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
-  //   tags: [
-  //     {
-  //       name: "ReactJS",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "MongoDB",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: BlogApp,
-  //   source_code_link: "https://github.com/abinash2055/Blog-Website",
-  // },
+  {
+    name: "Blog App Website",
+    description:
+      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: BlogApp,
+    source_code_link: "https://github.com/abinash2055/MERN-Blog-App",
+  },
   {
     name: "Shikshalaya",
     description:
