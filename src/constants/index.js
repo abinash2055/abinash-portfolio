@@ -130,7 +130,7 @@ const experiences = [
     company_name: "ASI Tech",
     icon: asi,
     iconBg: "#383E56",
-    date: "April 2026 - Present",
+    date: "April 2026 - August 2026",
     points: [
       "Junior Software Engineer with hands-on experience in software development, debugging, 	testing, and application maintenance.",
       "Proficient in working with modern development tools, version control systems, and 	scalable software architectures.",
