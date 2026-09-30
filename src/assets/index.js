@@ -36,6 +36,7 @@ import music from "./music.png";
 import Estore from "./Estore.png";
 import Cambridge from "./Cambridge.png";
 import BlogApp from "./BlogApp.png";
+import PatientDashboard from "./PhysioDesk.png"
 import Shikshalaya from "./Shikshalaya.png";
 
 // Education
@@ -76,6 +77,7 @@ export {
   Estore,
   Cambridge,
   BlogApp,
+  PatientDashboard,
   Shikshalaya,
   eps,
   kec,

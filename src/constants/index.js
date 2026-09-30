@@ -4,6 +4,7 @@ import {
   backend,
   creator,
   web,
+
   // technologies images
   javascript,
   typescript,
@@ -17,17 +18,21 @@ import {
   git,
   figma,
   docker,
+
   // experiences images
   robust,
   asi,
+
   // Project images
   pose,
   music,
   Estore,
   Cambridge,
   BlogApp,
+  PatientDashboard,
   Shikshalaya,
   threejs,
+  
   // educations images
   eps,
   kec,
@@ -60,7 +65,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Full Stack & MERN Developer",
+    title: "Full Stack MERN & PERN Developer",
     icon: backend,
   },
   {
@@ -261,48 +266,48 @@ const projects = [
     source_code_link:
       "https://github.com/abinash2055/Personal_Trainer_using_Human_Pose_Visualization",
   },
-  // {
-  //   name: "Music Text Player",
-  //   description:
-  //     "A Django-based web application built with Python that allows users to play local MP3 music files with a simple text-based interface.",
-  //   tags: [
-  //     {
-  //       name: "Python",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Django",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Virtual Environment",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: music,
-  //   source_code_link: "https://github.com/abinash2055/MusicTextPlayer",
-  // },
-  // {
-  //   name: "E-store",
-  //   description:
-  //     "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
-  //   tags: [
-  //     {
-  //       name: "nextJS",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: Estore,
-  //   source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
-  // },
+  {
+    name: "Music Text Player",
+    description:
+      "A Django-based web application built with Python that allows users to play local MP3 music files with a simple text-based interface.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Virtual Environment",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: music,
+    source_code_link: "https://github.com/abinash2055/MusicTextPlayer",
+  },
+  {
+    name: "E-store",
+    description:
+      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+    tags: [
+      {
+        name: "nextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Estore,
+    source_code_link: "https://github.com/abinash2055/E-Commerce-MERN",
+  },
   {
     name: "Cambridge Job Portal",
     description:
@@ -366,6 +371,27 @@ const projects = [
     ],
     image: Shikshalaya,
     source_code_link: "https://github.com/abinash2055/SIKSHALAYA",
+  },
+  {
+    name: "PhysioDesk",
+    description:
+      "An e-commerce platform that allows users to browse products, order item to a shopping cart, place orders, and manage their account with a secure checkout process.",
+    tags: [
+      {
+        name: "PostgresSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swift",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: PatientDashboard,
+    source_code_link: "https://github.com/abinash2055/PhysioDesk-Patient-Management",
   },
 ];
 
