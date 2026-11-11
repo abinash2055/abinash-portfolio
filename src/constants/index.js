@@ -164,7 +164,7 @@ const educations = [
     education_name: "Kathmandu Engineering College",
     icon: kec,
     iconBg: "#383E56",
-    date: "Sep 2019 - Aug 2023",
+    date: "Sep 2019 - Aug 2025",
     points: [
       "Developing and maintaining web applications using Laravel and related PHP technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -203,7 +203,7 @@ const educations = [
     education_name: "Manank Children's Paradise School",
     icon: manank,
     iconBg: "#383E56",
-    date: "Sep 2000 - Aug 2003",
+    date: "Sep 2000 - Aug 2002",
     points: [
       "Attended Montessori School for early childhood education, learning foundational reading, writing, and arithmetic skills.",
       "Developed social and emotional skills through group activities and collaborative learning.",
